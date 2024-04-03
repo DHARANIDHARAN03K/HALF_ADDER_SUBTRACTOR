@@ -55,15 +55,21 @@ Program:
  HALF ADDER
 
 module half_adder(a,b,sum,carry);
+
 input a,b;
+
 output sum,carry; 
+
 assign sum = a^b;
+
 assign carry = a & b;
+
 endmodule
 
 HALF SUBTRACTER 
 
 module half_subtracter(a,b,D,Bo);
+
 input a,b;
 
 output D,Bo; 
