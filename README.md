@@ -69,6 +69,7 @@ endmodule
 ```
 
 HALF SUBTRACTER 
+```
 
 module half_subtracter(a,b,D,Bo);
 
@@ -83,6 +84,7 @@ assign D = a ^ b;
 assign Bo = ~a & b;
   
 endmodule
+```
 
 Developed by: DHARANI DHARAN K
 
